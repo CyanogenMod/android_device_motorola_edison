@@ -4,9 +4,6 @@ $(call inherit-product, device/motorola/edison/full_edison.mk)
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/gsm.mk)
-
 #
 # Setup device specific product configuration.
 #
